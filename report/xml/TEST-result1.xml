@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="2" hostname="MarioAlmeida" name="testeSelenium.TestSelenium" skipped="0" tests="7" time="106.965" timestamp="2016-04-02T15:15:57">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ant.file.type.selenium_webdriver" value="file" />
+    <property name="lib" value="./lib" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes" />
+    <property name="report" value="./report" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="user.name" value="Mario" />
+    <property name="user.language" value="pt" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin" />
+    <property name="ant.project.default-target" value="exec" />
+    <property name="ant.project.name" value="selenium_webdriver" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="user.timezone" value="" />
+    <property name="bin" value="./bin" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="./src" />
+    <property name="user.country" value="BR" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\Mario\workspace\selenium_webdriver\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/" />
+    <property name="user.home" value="C:\Users\Mario" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_73/bin/server;C:/Program Files/Java/jre1.8.0_73/bin;C:/Program Files/Java/jre1.8.0_73/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;;.;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\751\0\.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1459610154071 -Declipse.connect.port=42828 -Declipse.pdebuild.home=/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./ -Declipse.pdebuild.scripts=/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/scripts/ -Declipse.pdebuild.templates=/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/templates/ -Dant.home=C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\Mario\workspace\selenium_webdriver\build.xml" />
+    <property name="java.class.path" value="C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-antlr.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bcel.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bsf.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-log4j.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-oro.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-regexp.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-resolver.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-xalan2.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-logging.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-net.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jai.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-javamail.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jdepend.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jmf.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jsch.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-netrexx.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-swing.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-testutil.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\antdebug.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\79\0\.cp\lib\remote.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_60\lib\tools.jar;C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.104.2.v20160212-1350.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="/C:/Users/Mario/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.100.v20150521-1524/./" />
+    <property name="java.io.tmpdir" value="C:\Users\Mario\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="XMLConstants.FEATURE_SECURE_PROCESSING" value="false" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="ant.file.selenium_webdriver" value="C:\Users\Mario\workspace\selenium_webdriver\build.xml" />
+    <property name="user.dir" value="C:\Users\Mario\workspace\selenium_webdriver" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\Mario\workspace\selenium_webdriver" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\Mario\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="exec" />
+  </properties>
+  <testcase classname="testeSelenium.TestSelenium" name="testPropertiesVazio" time="20.96">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[No pages matched your search criteria].&gt; but was:&lt;[Found 332 results for your search].&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: org.junit.ComparisonFailure: expected:&lt;[No pages matched your search criteria].&gt; but was:&lt;[Found 332 results for your search].&gt;
+	at testeSelenium.TestSelenium.tearDown(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+</failure>
+  </testcase>
+  <testcase classname="testeSelenium.TestSelenium" name="testProperties" time="15.128" />
+  <testcase classname="testeSelenium.TestSelenium" name="testeHome" time="13.641">
+    <failure message="org.junit.ComparisonFailure: expected:&lt;[FrontPage]&gt; but was:&lt;[Search Form]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: org.junit.ComparisonFailure: expected:&lt;[FrontPage]&gt; but was:&lt;[Search Form]&gt;
+	at testeSelenium.TestSelenium.tearDown(Unknown Source)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:453)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+</failure>
+  </testcase>
+  <testcase classname="testeSelenium.TestSelenium" name="testeBuscaConteudos" time="14.937" />
+  <testcase classname="testeSelenium.TestSelenium" name="testeBuscaTitulos" time="14.354" />
+  <testcase classname="testeSelenium.TestSelenium" name="botaoVoltar" time="13.899" />
+  <testcase classname="testeSelenium.TestSelenium" name="testeBuscaConteudosVazio" time="13.956" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
